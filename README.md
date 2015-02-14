@@ -4,12 +4,12 @@
 
 This project base on [aurelia-skeleton-navigation](https://github.com/aurelia/skeleton-navigation/releases), v0.10.
 To init the project :
-  npm install
-  npm install -g gulp
-  npm install -g jspm
-  (jspm endpoint config github)
-  jspm install -y
-  gulp watch ( [http://localhost:9000](http://localhost:9000) )
+  * `npm install`
+  * `npm install -g gulp`
+  * `npm install -g jspm`
+  * (jspm endpoint config github)
+  * `jspm install -y`
+  * `gulp watch` ( [http://localhost:9000](http://localhost:9000) )
 
 ## Running The Unit Tests
 
@@ -17,14 +17,14 @@ To run the unit tests, first ensure that you have followed the steps above in or
 
 ### Requirement
   
-  npm install -g karma-cli
-  jspm install aurelia-framework
-  jspm install aurelia-http-client
-  jspm install aurelia-router
+  * `npm install -g karma-cli`
+  * `jspm install aurelia-framework`
+  * `jspm install aurelia-http-client`
+  * `jspm install aurelia-router`
 
 ### Start
   
-  karma start
+  `karma start
   
 ### Running The E2E Tests
 Integration tests are performed with [Protractor](http://angular.github.io/protractor/#/).
